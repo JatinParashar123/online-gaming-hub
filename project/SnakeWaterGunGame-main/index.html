@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Water Gun Game!!</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai|Bree+Serif&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="back">
+     <header class="header"><h1 class="animate__animated animate__heartBeat animate__infinite">Snake Water Gun Game!!</h1><span class="header_part animate__animated animate__flipInY animate__infinite">Made by Akash Khandelwal</span></header>  
+     <div class="PlayerScore">PlayerScore
+      <br>   
+      <span id="Player">0</span>
+     </div>
+     <div class="ComputerScore">ComputerScore
+         <br>
+      <span id="Computer">0</span>   
+     </div>
+     <div class="section">
+      <div id="first">
+      <img src="Snake.jpg" alt="">
+      <button onclick = "snake()" class="btn"> Snake </button>
+      </div>
+      
+      <div id="second">         
+       <img src="Water.jpg" alt="">
+       <button onclick="water()" class="btn"> Water </button>
+      </div>
+      <div id="third">           
+        <img src="Gun2.jpg" alt="">
+        <button onclick = "gun()" class="btn"> Gun </button>
+      </div>
+     </div>
+     <div class="ScoreCard">
+     <h1 id="message">Play Game!</h1>
+     <h3 id="turn">- - - - - - - - - -  </h3>
+     </div>
+     <footer>
+        <div class="center">
+            Copyright &copy; www.SnakeWaterGame.com. All rights reserved!
+        </div>
+    </footer>
+
+    </div>
+    
+   <script src="custom.js"></script>
+</body>
+</html>

@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+ }
+ 
+ html{
+     scroll-behavior:smooth;
+ }
+body
+{
+    font-family: 'Bree Serif', serif;
+    background-color: black;
+}
+ 
+ .back
+ {
+     position:absolute;
+    
+    background:url(../SATORI.JPG) no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    
+ }
+ .header
+ {
+      background-color: black;
+      color: white;
+      display: flex;
+      justify-content: center;
+      margin-top:0%;
+      border: 10px solid black;
+      opacity: 0.7;
+      
+
+ }
+ .header_part
+ {
+     display: flex;
+     align-items: flex-end;
+     justify-content: end;
+ }
+ .PlayerScore
+ {
+     background-color:black;
+     border: 5px solid black;
+     border-radius: 10px;
+     color: white;
+     font-size: 1.5rem;
+     padding: 20px;
+     width: 150px;
+     height: 100px;
+     margin-top: 10px;
+     margin-left: 250px;
+     opacity: 0.8;
+     box-shadow: 2px 3px 2px white;
+     display: inline-block;
+     text-align: center;
+
+ }
+ .ComputerScore
+ {
+    display: inline-block;
+    background-color:black;
+    border: 5px solid black;
+    border-radius: 10px;
+    color: white;
+    font-size: 1.5rem;
+    padding: 20px;
+    width: 150px;
+    height: 100px;
+    margin-top: 10px;
+    margin-left: 500px;
+    opacity: 0.8;
+    box-shadow: 2px 3px 4px white; 
+    text-align: center;
+
+ }
+ .section
+ {
+     position: relative;
+      /* background-color: black;  */
+     /* border:2px solid white; */
+     height: 40%;
+     opacity: 0.9;
+     padding: 10px;
+
+ }
+#first{
+    border: 2px solid white;
+    height:75%;
+    width:20%;
+    position:absolute;
+    left:20px;
+    border-radius: 10px;
+    box-shadow: 1px 4px 5px black;
+}
+#first img
+{
+    height: 224px;
+    width: 272px;
+    opacity: 0.9;
+}
+
+#second
+{
+    border: 2px solid white;
+    height: 75%;
+    width: 20%;
+    position: absolute;
+    left: 550px;
+    border-radius: 10px;
+    box-shadow: 1px 4px 5px black;
+}
+#second img
+{
+    height: 224px;
+    width:272px;
+    opacity: 0.9;
+}
+
+#third
+{
+    border: 2px solid white;
+    height: 75%;
+    width: 20%;
+    position: absolute;
+    left: 1050px;
+    border-radius: 10px;
+    box-shadow: 1px 4px 5px black;
+}
+#third img
+{
+    height: 224px;
+    width:272px;
+    opacity: 0.9;
+}
+.ScoreCard
+{
+    background-color: black;
+    /* border: 2px solid white; */
+    padding: 40px;
+    height: 90px;
+    width: 400px;
+    margin-left: 450px;
+    opacity: 0.8;
+    border-radius: 10px;
+    box-shadow: 2px 3px 4px white; 
+    color: white;
+    text-align: center;
+}
+
+.btn{
+
+    padding: 6px 20px;
+    border: 2px solid white;
+    background-color:black;
+    color: white;
+    /* margin: 17px; */
+    font-size: 1.5rem;
+    border-radius: 20px;
+    cursor: pointer;
+    text-shadow: 2px 1px 5px white;
+    transition: all 2s ease-in-out;
+}
+.btn:hover{
+    background-color:white;
+    color:black;
+    border-radius: 21px;
+}
+
+footer{
+    background: black;
+    color: white;
+    padding: 5px 20px;
+    text-align: center;
+}
+#turn
+{
+    color:yellow;
+}
